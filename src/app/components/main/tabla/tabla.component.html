@@ -1,0 +1,22 @@
+<div class="contenedorTabla">
+    <table >
+        <tr>
+            <th>ID</th>
+            <th>NAME</th>
+            <th>EMAIL</th>
+            <th>ADDRESS</th>
+            <th>USERNAME</th>
+            <th>PHONE</th>
+            <th>WEB</th>
+        </tr>
+        <tr *ngFor='let datos of users'>
+            <td>{{datos.id}}</td>
+            <td>{{datos.name}}</td>
+            <td>{{datos.email}}</td>
+            <td>{{datos.address.city + ' ' + datos.address.street }} {{datos.address.suite + ' ' + datos.address.zipcode }}</td>
+            <td>{{datos.username}}</td>
+            <td>{{datos.phone}}</td>
+            <td>{{datos.website}}</td>
+        </tr>
+    </table>
+</div>
