@@ -19,6 +19,7 @@ import { AppRoutingModule } from './app-routing.module';
     GaleriaComponent,
     TablaComponent,
     
+    
   ],
 
   imports: [
