@@ -19,6 +19,6 @@ export class GaleriaComponent implements OnInit {
         console.log(data);
         this.photos = data;
       }
-    )
+    ) 
   }  
 }
